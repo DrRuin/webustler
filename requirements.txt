@@ -1,0 +1,4 @@
+fastmcp>=2.14.1
+requests>=2.32.5
+beautifulsoup4>=4.14.3
+markdownify>=1.2.2
