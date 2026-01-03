@@ -74,7 +74,7 @@ Most scraping tools fail on protected sites. **Webustler doesn't.**
 | File detection | ✅ | ⚠️ | ❌ | ❌ | ❌ |
 | Reading time | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Zero config | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Free forever | ✅ | ❌ | ❌ | ✅ | ❌ |
+| Free forever | ✅ | ❌ | ❌ | ✅ | ✅ |
 
 <p align="center"><sub>✅ Full support · ⚠️ Partial/Limited · ❌ Not supported</sub></p>
 
