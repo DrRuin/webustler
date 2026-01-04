@@ -12,6 +12,7 @@
 <p align="center">
   <a href="#features"><img src="https://img.shields.io/badge/Features-13+-blue?style=for-the-badge" alt="Features"></a>
   <a href="#installation"><img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
+  <a href="#installation"><img src="https://img.shields.io/badge/MCP_Toolkit-Coming_Soon-orange?style=for-the-badge&logo=docker&logoColor=white" alt="MCP Toolkit Coming Soon"></a>
   <a href="#license"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License"></a>
   <a href="#"><img src="https://img.shields.io/badge/MCP-Server-purple?style=for-the-badge" alt="MCP Server"></a>
 </p>
