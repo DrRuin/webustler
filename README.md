@@ -65,9 +65,9 @@ Most scraping tools fail on protected sites. **Webustler doesn't.**
 |:--------|:---------:|:---------:|:-------------:|:--------:|:---------:|
 | Anti-bot bypass | ✅ | ⚠️ | ❌ | ⚠️ | ❌ |
 | Cloudflare support | ✅ | ⚠️ | ❌ | ⚠️ | ❌ |
-| No API key needed | ✅ | ❌ | ❌ | ✅ | ✅ |
+| No API key needed | ✅ | ❌ | ❌ | ✅ | ⚠️ |
 | Self-hosted | ✅ | ✅ | ✅ | ✅ | ✅ |
-| MCP native | ✅ | ✅ | ✅ | ⚠️ | ❌ |
+| MCP native | ✅ | ✅ | ✅ | ✅ | ❌ |
 | Token optimized | ✅ | ✅ | ❌ | ✅ | ✅ |
 | Rich metadata | ✅ | ✅ | ⚠️ | ⚠️ | ✅ |
 | Link categorization | ✅ | ❌ | ❌ | ❌ | ✅ |
@@ -364,7 +364,7 @@ Clean markdown content here with **formatting** preserved...
 Firecrawl is excellent but:
 - Requires API key and paid plans for serious usage
 - Limited anti-bot capabilities
-- Not an MCP server
+- More complex setup with environment variables
 
 </details>
 
@@ -372,8 +372,8 @@ Firecrawl is excellent but:
 <summary><strong>ScrapeGraphAI?</strong></summary>
 
 ScrapeGraphAI uses LLMs to parse pages:
-- Adds latency (LLM calls)
-- Adds cost (token usage)
+- Requires LLM API keys (OpenAI, etc.) for all operations
+- Adds latency (LLM calls) and cost (token usage)
 - Webustler is deterministic — faster, cheaper, predictable
 
 </details>
@@ -381,20 +381,20 @@ ScrapeGraphAI uses LLMs to parse pages:
 <details>
 <summary><strong>Crawl4AI?</strong></summary>
 
-Crawl4AI has Magic Mode but:
-- Requires more configuration
-- Not an MCP server
-- Webustler works out of the box
+Crawl4AI is a powerful open-source crawler but:
+- Requires more configuration to get started
+- LLM features require additional API keys
+- Webustler works out of the box with zero config
 
 </details>
 
 <details>
 <summary><strong>Deepcrawl?</strong></summary>
 
-Deepcrawl has great features but:
-- Requires API key
-- No anti-bot bypass
-- Not an MCP server
+Deepcrawl is a great Firecrawl alternative but:
+- Hosted API requires API key (self-host is free)
+- No anti-bot bypass capabilities
+- REST API only, not an MCP server
 
 </details>
 
