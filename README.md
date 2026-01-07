@@ -416,6 +416,18 @@ webustler/
 
 ---
 
+## ⚖️ Ethical Use & Disclaimer
+
+**Webustler** is provided as a tool for security research, data interoperability, and educational purposes. 
+
+* **Responsibility:** The developers of Webustler do not condone unauthorized scraping or the violation of any website's Terms of Service (TOS). 
+* **Compliance:** Users are solely responsible for ensuring that their use of this tool complies with local laws (such as the CFAA or GDPR) and the intellectual property rights of the content owners.
+* **Respect Robots.txt:** We encourage all users to respect `robots.txt` files and implement reasonable crawl delays to avoid putting undue stress on web servers.
+
+This project is an exploration of web technologies and challenge-response mechanisms. Use it responsibly.
+
+---
+
 <a id="license"></a>
 
 ## 📜 License
